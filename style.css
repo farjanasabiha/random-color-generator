@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+header h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+header span {
+    color: white;
+    text-transform: capitalize;
+}
+header a {
+    background-color: red;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+}
